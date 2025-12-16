@@ -1,0 +1,28 @@
+/* Navbar link default */
+.navbar .nav-link {
+  color: #212529;                 /* default dark text */
+  position: relative;             /* required for ::after */
+  transition: color 0.3s ease;    /* smooth color change */
+}
+
+/* Underline effect */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #0d6efd;      /* same as hover color */
+  transition: width 0.3s ease;
+}
+
+/* Hover: text + underline */
+.navbar .nav-link:hover {
+  color: #0d6efd;                 /* text color changes */
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
