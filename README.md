@@ -1,2 +1,2 @@
 # aurika-web
-A generic website design for Aurika
+Aurika Knowledge Foundation
