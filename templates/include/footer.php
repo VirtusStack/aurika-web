@@ -6,7 +6,7 @@
 <!-- About / Logo -->
 <div class="col-md-3 mb-4">
 <h5 class="fw-bold">Aurika</h5>
-<p>Professional & modern web solutions.</p>
+<p>Empowering education and knowledge through structured learning and professional guidance.</p>
 </div>
 
 <!-- Quick Links -->
