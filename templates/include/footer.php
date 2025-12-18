@@ -1,4 +1,4 @@
-<!-- ================= FOOTER ================= -->
+<!--  FOOTER  -->
 <footer class="bg-dark text-light pt-5 pb-3 mt-5">
   <div class="container">
     <div class="row">
@@ -45,7 +45,7 @@
           Mumbai & Rajasthan, India
         </p>
 
-        <!-- Social Media (optional, keep minimal) -->
+        <!-- Social Media  -->
         <div class="mt-3">
           <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
           <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
