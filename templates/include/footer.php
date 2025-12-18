@@ -1,7 +1,7 @@
 <!--  FOOTER  -->
 <footer class="bg-dark text-light pt-5 pb-3 mt-5">
-  <div class="container">
-    <div class="row">
+<div class="container">
+<div class="row">
 
       <!-- About Foundation -->
       <div class="col-md-4 mb-4">
