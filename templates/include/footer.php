@@ -2,66 +2,81 @@
 // Footer section
 ?>
 
-<!-- FOOTER -->
 <footer class="bg-dark text-light pt-5 pb-3 mt-5">
     <div class="container">
         <div class="row">
 
-            <!-- About Foundation -->
+            <!-- Foundation Info -->
             <div class="col-md-4 mb-4">
                 <h5 class="fw-bold">Aurika Knowledge Foundation</h5>
-                <p class="mt-3">
-                    Aurika Knowledge Foundation is a Section 8 company established
-                    to promote education, learning, and socio-economic development
-                    through academic, professional, and vocational programs.
+                <p class="mt-3 small">
+                    Aurika Knowledge Foundation is a Section 8 Company registered
+                    under the Companies Act, 2013, established to promote education,
+                    professional excellence, vocational learning, and socio-economic
+                    development across India.
+                </p>
+
+                <p class="small mb-0">
+                    <strong>CIN:</strong> U80904MH2013NPL239411
                 </p>
             </div>
 
-            <!-- Quick Links -->
+            <!-- Important Links -->
             <div class="col-md-2 mb-4">
-                <h5 class="fw-bold">Quick Links</h5>
-                <ul class="list-unstyled mt-3">
-                    <li><a href="index.php" class="text-light text-decoration-none">Home</a></li>
-                    <li><a href="about.php" class="text-light text-decoration-none">About Us</a></li>
-                    <li><a href="programs.php" class="text-light text-decoration-none">Programs</a></li>
-                    <li><a href="team.php" class="text-light text-decoration-none">Our Team</a></li>
-                    <li><a href="contact.php" class="text-light text-decoration-none">Contact Us</a></li>
+                <h5 class="fw-bold">Important Links</h5>
+                <ul class="list-unstyled mt-3 small">
+                    <li><a href="about.php" class="text-light text-decoration-none">About the Foundation</a></li>
+                    <li><a href="mission-vision.php" class="text-light text-decoration-none">Mission & Vision</a></li>
+                    <li><a href="programs.php" class="text-light text-decoration-none">Academic Programs</a></li>
+                    <li><a href="articleship.php" class="text-light text-decoration-none">Articleship (UPACA Gurukul)</a></li>
+                    <li><a href="team.php" class="text-light text-decoration-none">Leadership & Team</a></li>
                 </ul>
             </div>
 
-            <!-- Academic Focus -->
+            <!-- Compliance & Recognition -->
             <div class="col-md-3 mb-4">
-                <h5 class="fw-bold">Academic Focus</h5>
-                <ul class="list-unstyled mt-3">
-                    <li>CA Foundation / Intermediate / Final</li>
-                    <li>Articleship Training</li>
-                    <li>Vocational & Skill Programs</li>
-                    <li>Professional Certifications</li>
+                <h5 class="fw-bold">Regulatory Compliance</h5>
+                <ul class="list-unstyled mt-3 small">
+                    <li> DARPAN Registration</li>
+                    <li> 12AA Approval</li>
+                    <li> 80G Certification</li>
+                    <li> CSR Registration (MCA)</li>
+                    <li> IT Returns Filed (Last 3 Years)</li>
                 </ul>
             </div>
 
-            <!-- Contact Information -->
+            <!-- Contact & Address -->
             <div class="col-md-3 mb-4">
                 <h5 class="fw-bold">Contact Information</h5>
-                <p class="mt-3 mb-1">Email: info@aurikafoundation.org</p>
-                <p class="mb-1">Phone: +91 XXXXXXXXXX</p>
-                <p class="mb-0">Mumbai & Rajasthan, India</p>
 
-                <!-- Social Media -->
-                <div class="mt-3">
-                    <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-                </div>
+                <p class="small mt-3 mb-1">
+                    <strong>Registered Office:</strong><br>
+                    B-502, Nirav, Asha Nagar,<br>
+                    Kandivali (E), Mumbai – 400101
+                </p>
+
+                <p class="small mb-1">
+                    <strong>Campus:</strong><br>
+                    RIICO Industrial Growth Centre,<br>
+                    Abu Road, Dist. Sirohi, Rajasthan – 307026
+                </p>
+
+                <p class="small mb-1">
+                    <strong>Email:</strong> upaknowledgeacademy123@gmail.com
+                </p>
+                <p class="small mb-0">
+                    <strong>Phone:</strong> +91 93219 85139
+                </p>
             </div>
 
         </div>
 
         <!-- Footer Bottom -->
-        <div class="text-center mt-4 pt-3 border-top border-secondary">
-            © 2025 Aurika Knowledge Foundation. All Rights Reserved.
+        <div class="text-center mt-4 pt-3 border-top border-secondary small">
+            © 2025 Aurika Knowledge Foundation. All Rights Reserved.<br>
+            Founded & Directed by <strong>Mr. Nikhil Agarwal</strong>
         </div>
     </div>
 </footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
