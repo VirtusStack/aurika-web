@@ -1,7 +1,6 @@
 <?php
 // Header section
 // $currentPage should be defined before including this file
-// Example: $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 
 <!DOCTYPE html>
