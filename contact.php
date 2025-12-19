@@ -1,7 +1,7 @@
-<?php include __DIR__ . '/templates/include/header.php'; ?>
-
-<?php 
+<?php
 require_once __DIR__ . '/config/config.php';
+include __DIR__ . '/templates/include/header.php';
+
 $success = '';
 $error = '';
 
