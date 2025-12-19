@@ -26,7 +26,7 @@
                 <h5 class="fw-bold">Important Links</h5>
                 <ul class="list-unstyled mt-3 small">
                     <li><a href="about.php" class="text-light text-decoration-none">About the Foundation</a></li>
-                    <li><a href="mission-vision.php" class="text-light text-decoration-none">Mission & Vision</a></li>
+                    <li><a href="about.php" class="text-light text-decoration-none">Mission & Vision</a></li>
                     <li><a href="programs.php" class="text-light text-decoration-none">Academic Programs</a></li>
                     <li><a href="articleship.php" class="text-light text-decoration-none">Articleship (UPACA Gurukul)</a></li>
                     <li><a href="team.php" class="text-light text-decoration-none">Leadership & Team</a></li>
