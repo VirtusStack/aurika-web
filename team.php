@@ -1,7 +1,8 @@
-<?php include __DIR__ . '/templates/include/header.php'; ?>
-
+<?php
+require_once __DIR__ . '/config/config.php';
+include __DIR__ . '/templates/include/header.php';
+?>
 <!-- OUR TEAM & ADVISORY BOARD -->
-
 
 <!-- PAGE HEADER -->
 <section class="py-5 bg-light">
