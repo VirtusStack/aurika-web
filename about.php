@@ -1,5 +1,9 @@
 <?php
 require_once __DIR__ . '/config/config.php';
+
+// Set current page for active nav
+$currentPage = 'about.php';
+
 include __DIR__ . '/templates/include/header.php';
 ?>
 <!--  ABOUT US : AURIKA KNOWLEDGE FOUNDATION -->
