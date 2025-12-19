@@ -1,19 +1,17 @@
 <?php
 require_once __DIR__ . '/config/config.php';
-
-// Set current page for active nav
 $currentPage = 'team.php';
-
 include __DIR__ . '/templates/include/header.php';
 ?>
+
 <!-- OUR TEAM & ADVISORY BOARD -->
 
 <!-- PAGE HEADER -->
 <section class="py-5 bg-light">
   <div class="container text-center">
-    <h1 class="fw-bold">Our Team & Advisory Board</h1>
+    <h1 class="fw-bold">Governing Council</h1>
     <p class="lead mt-2">
-      Leadership guided by experience, integrity and excellence
+      Leadership and guidance steering Aurika Knowledge Foundation
     </p>
   </div>
 </section>
@@ -22,37 +20,43 @@ include __DIR__ . '/templates/include/header.php';
 <section class="py-5">
   <div class="container">
 
-    <h2 class="fw-bold mb-4 text-center">Board of Directors</h2>
+    <h2 class="fw-bold mb-4">Board of Directors</h2>
 
-    <div class="row justify-content-center">
+    <div class="row">
 
-      <!-- Director 1 -->
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm text-center p-4">
-          <div class="mb-3">
-            <i class="bi bi-person-circle fs-1 text-primary"></i>
+      <!-- DIRECTOR -->
+      <div class="col-md-6 mb-4">
+        <div class="director-box d-flex align-items-center">
+
+          <img src="assets/images/team/nikhil-agarwal.jpg" alt="Mr. Nikhil Agarwal">
+
+          <div>
+            <h5 class="fw-bold mb-1">Mr. Nikhil Agarwal</h5>
+            <p class="designation mb-2">Director</p>
+            <p class="small mb-0">
+              Finance and Tax professional with over two decades of experience.
+              Visionary founder of Aurika Knowledge Foundation.
+            </p>
           </div>
-          <h5 class="fw-bold mb-1">Mr. Nikhil Agarwal</h5>
-          <p class="text-muted mb-2">Director</p>
-          <p class="small">
-            Finance and Tax professional with over two decades of experience.
-            Founder visionary behind Aurika Knowledge Foundation.
-          </p>
+
         </div>
       </div>
 
-      <!-- Director 2 -->
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm text-center p-4">
-          <div class="mb-3">
-            <i class="bi bi-person-circle fs-1 text-primary"></i>
+      <!-- DIRECTOR -->
+      <div class="col-md-6 mb-4">
+        <div class="director-box d-flex align-items-center">
+
+          <img src="assets/images/team/ritu-agarwal.jpg" alt="Ms. Ritu Agarwal">
+
+          <div>
+            <h5 class="fw-bold mb-1">Ms. Ritu Agarwal</h5>
+            <p class="designation mb-2">Director</p>
+            <p class="small mb-0">
+              Actively involved in governance, planning and strategic
+              development of the Foundation.
+            </p>
           </div>
-          <h5 class="fw-bold mb-1">Ms. Ritu Agarwal</h5>
-          <p class="text-muted mb-2">Director</p>
-          <p class="small">
-            Actively involved in organizational planning, governance and
-            strategic development of the Foundation.
-          </p>
+
         </div>
       </div>
 
@@ -62,92 +66,161 @@ include __DIR__ . '/templates/include/header.php';
 </section>
 
 <!-- ADVISORY BOARD -->
-
 <section class="py-5 bg-light">
   <div class="container">
 
-    <h2 class="fw-bold mb-4 text-center">Advisory Board</h2>
+    <h2 class="fw-bold mb-4">Advisory Board</h2>
 
-    <p class="text-center mb-5">
-      Aurika Knowledge Foundation is guided by a distinguished advisory board
-      comprising senior bureaucrats, eminent Chartered Accountants,
-      academicians and global professionals.
+    <p class="mb-5">
+      The Advisory Board comprises eminent professionals, bureaucrats and academicians
+      who provide strategic direction and governance support to Aurika Knowledge Foundation.
     </p>
 
-    <div class="row">
+    <!-- NATIONAL ADVISORY BOARD -->
+    <h4 class="fw-bold mb-3">National Advisory Board</h4>
 
-      <!-- Advisor Card -->
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm p-4">
-          <h6 class="fw-bold mb-1">CA Ved Jain</h6>
-          <p class="text-muted small mb-2">Former President, ICAI (2008–09)</p>
-          <p class="small">
-            Renowned professional leader with extensive contribution to the
-            Chartered Accountancy profession.
-          </p>
-        </div>
+    <div class="advisory-list mb-5">
+
+      <div class="advisory-item">
+        <h6>CA Ved Jain</h6>
+        <span>Past President, ICAI (2008–09)</span>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm p-4">
-          <h6 class="fw-bold mb-1">CA Amarjit Chopra</h6>
-          <p class="text-muted small mb-2">Former President, ICAI (2010–11)</p>
-          <p class="small">
-            Former Director at Indian Bank & Bank of Baroda, Chairman – NACAS.
-          </p>
-        </div>
+      <div class="advisory-item">
+        <h6>CA Amarjit Chopra</h6>
+        <span>Past President, ICAI (2010–11)</span>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm p-4">
-          <h6 class="fw-bold mb-1">Mr. M. R. Sivaraman, IAS</h6>
-          <p class="text-muted small mb-2">
-            Former Executive Director – IMF
-          </p>
-          <p class="small">
-            Senior civil servant with experience in international finance and
-            policy advisory roles.
-          </p>
-        </div>
+      <div class="advisory-item">
+        <h6>Shri Sushil Chandra Tripathi, IAS (Retd.)</h6>
+        <span>Former Secretary, Ministry of Petroleum & Natural Gas, Government of India</span>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm p-4">
-          <h6 class="fw-bold mb-1">CA Suresh Prabhu</h6>
-          <p class="text-muted small mb-2">
-            Former Union Minister, Govt. of India
-          </p>
-          <p class="small">
-            National leader with vast experience in governance, commerce and
-            infrastructure development.
-          </p>
-        </div>
+      <div class="advisory-item">
+        <h6>CA S. Santhanakrishnan</h6>
+        <span>Director – IDBI Fortis Insurance Ltd.</span>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm p-4">
-          <h6 class="fw-bold mb-1">Dr. Aruna Sharma, IAS</h6>
-          <p class="text-muted small mb-2">
-            Former Secretary, Govt. of India
-          </p>
-          <p class="small">
-            Expert in public administration, industry policy and institutional
-            reforms.
-          </p>
-        </div>
+      <div class="advisory-item">
+        <h6>CA Sunil Talati</h6>
+        <span>Past President, ICAI (2007–08)</span>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm p-4">
-          <h6 class="fw-bold mb-1">CA Dr. Girish Ahuja</h6>
-          <p class="text-muted small mb-2">
-            Independent Director, SBI & Industry Expert
-          </p>
-          <p class="small">
-            Eminent academician and author with deep expertise in taxation and
-            corporate finance.
-          </p>
-        </div>
+      <div class="advisory-item">
+        <h6>Mr. L. K. Singhvi, IRS</h6>
+        <span>Former Whole Time Member – SEBI</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA V. Bala Krishnan</h6>
+        <span>Founder & Chairman, Exfinity Ventures | Former CFO, Infosys</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Shri Kelly Bains, IPS</h6>
+        <span>Additional Director General of Police, Rajasthan</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Shri Rajinder Singh, IPS</h6>
+        <span>Additional Director General of Police, Punjab</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Dr. (CA) Gaurav Vallabh</h6>
+        <span>Professor, XLRI Jamshedpur</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA Nagesh Pinge</h6>
+        <span>Former Chief Internal Auditor, Tata Motors Ltd.</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA Nirmal Kumar Jain</h6>
+        <span>Former Chairman & Vice Chairman, JSW Energy Ltd.</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA Brij Gopal Jaju</h6>
+        <span>CFO, DB Power Ltd. | Former Director, Welspun Corp.</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA R. K. Mittal</h6>
+        <span>Practicing Chartered Accountant, Mumbai</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA Nand Kishore Bafna</h6>
+        <span>Senior Partner, Lodha & Co. Chartered Accountants</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Mr. Amod Sharma</h6>
+        <span>Executive Director, Air India Limited</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Shri Radhakrishna Kini, IPS</h6>
+        <span>Director General, National Crime Records Bureau (NCRB)</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CS Mahesh Shah</h6>
+        <span>Past President, ICSI & ICMA</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CS Atul Hasmukhrai Mehta</h6>
+        <span>Past President, ICSI | Chairman, WIRC</span>
+      </div>
+
+    </div>
+
+    <!-- INTERNATIONAL ADVISORY BOARD -->
+    <h4 class="fw-bold mb-3">International Advisory Board</h4>
+
+    <div class="advisory-list">
+
+      <div class="advisory-item">
+        <h6>Joanne Murphy</h6>
+        <span>Managing Director – Asia Pacific & EMEA, CAIA Association</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Liv Watson</h6>
+        <span>Senior Director, Strategic Customer Initiatives, Workiva Inc., USA</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>P. A. Sharafudheen, IAS</h6>
+        <span>Lead Financial Specialist, The World Bank, USA</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA Ajay Kumar</h6>
+        <span>Chairperson, ICAI UK Chapter | Citigroup, Ireland</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>CA Prakash Chand Mehta</h6>
+        <span>Founder & Chairman, Truadvise FZE, UAE</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Deepak Bansal</h6>
+        <span>Senior Investment Officer, Industrial Bank of Kuwait</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Gagan Gujral</h6>
+        <span>Senior Director, RSM US LLP</span>
+      </div>
+
+      <div class="advisory-item">
+        <h6>Mr. Alok Gupta</h6>
+        <span>CEO, Y.K. Almoayyed & Sons, Bahrain</span>
       </div>
 
     </div>
@@ -156,4 +229,3 @@ include __DIR__ . '/templates/include/header.php';
 </section>
 
 <?php include __DIR__ . '/templates/include/footer.php'; ?>
-
