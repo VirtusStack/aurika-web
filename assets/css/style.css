@@ -1,51 +1,121 @@
+/* GENERAL BODY */
 body {
-  padding-top: 80px; /* for fixed navbar */
-  font-family: "Segoe UI", sans-serif;
+    padding-top: 90px; /* space for fixed navbar */
+    font-family: "Segoe UI", sans-serif;
 }
 
-/* Navbar links */
+/* NAVBAR */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 0.8rem 1rem;
+}
+
+/* BRAND */
+.navbar .navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #004080; /* primary dark blue */
+}
+
+/* NAV LINKS */
 .navbar .nav-link {
-  color: #212529;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.3s ease;
+    color: #212529;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
 /* Underline animation */
 .navbar .nav-link::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -6px;
-  width: 0;
-  height: 2px;
-  background-color: #0d6efd;
-  transform: translateX(-50%);
-  transition: width 0.3s ease;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #004080;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
 }
 
 .navbar .nav-link:hover {
-  color: #0d6efd;
+    color: #004080;
 }
 
 .navbar .nav-link:hover::after {
-  width: 100%;
+    width: 100%;
 }
 
-/* Active link */
+/* ACTIVE LINK */
 .navbar .nav-link.active {
-  color: #0d6efd;
+    color: #004080;
 }
-
 .navbar .nav-link.active::after {
-  width: 100%;
+    width: 100%;
 }
 
-/* Dropdown */
+/* DROPDOWN MENU */
 .dropdown-menu {
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    padding: 0.5rem 0;
 }
 
+.dropdown-item {
+    color: #212529;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
 
+.dropdown-item:hover, .dropdown-item.active {
+    background-color: #004080;
+    color: #fff;
+}
+
+/* OFFCANVAS MOBILE MENU */
+.offcanvas {
+    width: 250px;
+}
+
+.offcanvas .nav-link {
+    padding: 0.5rem 0;
+}
+
+.offcanvas .collapse .nav-link {
+    padding-left: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    font-size: 0.875rem;
+}
+
+footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+footer h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+footer .border-top {
+    border-color: rgba(255,255,255,0.2) !important;
+}
+
+footer .footer-bottom {
+    background-color: #111; /* slightly darker than main footer */
+    padding: 0.8rem 0;
+    font-size: 0.8rem;
+}
 
