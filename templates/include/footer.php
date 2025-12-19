@@ -74,8 +74,7 @@
         <!-- Footer Bottom -->
         <div class="text-center mt-4 pt-3 border-top border-secondary small">
             © 2025 Aurika Knowledge Foundation. All Rights Reserved.<br>
-            Founded & Directed by <strong>Mr. Nikhil Agarwal</strong>
-        </div>
+         </div>
     </div>
 </footer>
 
