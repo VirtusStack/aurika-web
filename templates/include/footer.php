@@ -70,12 +70,13 @@
             </div>
 
         </div>
+   </div>
 
         <!-- Footer Bottom -->
-        <div class="text-center mt-4 pt-3 border-top border-secondary small">
-            © 2025 Aurika Knowledge Foundation. All Rights Reserved.<br>
-         </div>
-    </div>
+        <div class="footer-bottom text-center mt-4 border-top border-secondary">
+       © 2025 Aurika Knowledge Foundation. All Rights Reserved.
+     </div>
+
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
