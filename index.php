@@ -1,5 +1,13 @@
-<?php include __DIR__ . '/templates/include/header.php'; ?>
+<?php
+// Include config first
+require_once __DIR__ . '/config/config.php';
 
+// Set current page for active nav
+$currentPage = 'index.php';
+
+// Include header after config
+include __DIR__ . '/templates/include/header.php';
+?>
 
 <! HOME PAGE : AURIKA KNOWLEDGE FOUNDATION -->
 
