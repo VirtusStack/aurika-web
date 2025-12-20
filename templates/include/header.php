@@ -25,7 +25,7 @@
     <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand fw-bold text-primary" href="index.php">Aurika Knowledge Foundation</a>
+        <a class="navbar-brand fw-bold " href="index.php">Aurika Knowledge Foundation</a>
 
         <!-- Mobile Toggle Button -->
         <button
