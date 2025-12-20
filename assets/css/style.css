@@ -15,8 +15,15 @@ body {
 .navbar .navbar-brand {
     font-weight: 700;
     font-size: 1.25rem;
-    color: #004080; /* primary dark blue */
+    color: #004080;
+    transition: color 0.3s ease;
 }
+
+.navbar .navbar-brand:hover {
+    color: #003060; /* darker navy */
+    text-decoration: none;
+}
+
 
 /* NAV LINKS */
 .navbar .nav-link {
@@ -66,6 +73,7 @@ body {
     color: #212529;
     padding: 0.5rem 1.5rem;
     transition: all 0.3s ease;
+    font-weight: 500;
 }
 
 .dropdown-item:hover, .dropdown-item.active {
@@ -85,6 +93,54 @@ body {
 .offcanvas .collapse .nav-link {
     padding-left: 1.5rem;
 }
+
+.home-campus-img {
+  width: 80%;
+  max-height: 250px;      /* or 400px depending on preference */
+  object-fit: cover;      /* crop if needed, keep aspect ratio */
+  border-radius: 8px;    /* optional: rounded corners */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+h1, h2, h3 {
+  color: #004080;
+}
+
+/* ABOUT – HIGHLIGHT BOX */
+.about-highlight {
+  background: #ffffff;
+  padding: 24px;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  font-size: 15px;
+}
+
+/* ABOUT – OBJECTIVES */
+.objective-box {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+.objective-box ul {
+  padding-left: 18px;
+}
+
+.objective-box li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/* FOUNDER MESSAGE */
+.founder-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
 
 /* FOOTER */
 footer {
@@ -123,7 +179,7 @@ footer .footer-bottom {
     font-size: 0.8rem;
 }
 
-/* DIRECTORS (GOVERNING STYLE) */
+/* DIRECTORS  */
 
 .director-box {
   background: #ffffff;
@@ -169,5 +225,80 @@ footer .footer-bottom {
 .advisory-item span {
   color: #6c757d;
   font-size: 14px;
+}
+
+/* CAMPUS HIGHLIGHTS */
+
+.campus-point {
+  background: #ffffff;
+  padding: 16px 20px;
+  border-left: 4px solid #004080;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/*  TIMELINE */
+
+.timeline {
+  border-left: 3px solid #e5e5e5;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -39px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: #0d6efd;
+  border-radius: 50%;
+}
+
+.timeline-item .year {
+  font-weight: 600;
+  color: #0d6efd;
+  display: block;
+  margin-bottom: 4px;
+}
+/* HOME – FOCUS AREAS */
+
+.focus-box {
+  background: ##004080;
+  padding: 24px;
+  border-left: 4px solid #004080; /* brand navy */
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  height: 100%;
+}
+
+/*   HOME – WHY AURIKA */
+
+.why-point {
+  background: #f8f9fa;
+  padding: 14px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* PROGRAMS */
+.program-box {
+  background:#004080;
+  padding: 24px;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.program-box:hover {
+  transform: translateY(-5px);
 }
 
