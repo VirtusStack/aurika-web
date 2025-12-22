@@ -46,13 +46,29 @@ include __DIR__ . '/templates/include/header.php';
 
     <h2 class="fw-bold mb-4">Specialization Domains</h2>
 
-    <ul>
-      <li>Mutual Funds & Investments</li>
-      <li>GST & Indirect Taxation</li>
-      <li>International Taxation</li>
-      <li>Banking & Financial Services</li>
-      <li>Insurance & Risk Management</li>
-    </ul>
+    <div class="row">
+
+  <div class="col-md-4 mb-3">
+    <div class="program-box">Mutual Funds & Investments</div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="program-box">GST & Indirect Taxation</div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="program-box">International Taxation</div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="program-box">Banking & Financial Services</div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="program-box">Insurance & Risk Management</div>
+  </div>
+
+</div>
 
   </div>
 </section>

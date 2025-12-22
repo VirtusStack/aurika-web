@@ -110,7 +110,7 @@ h1, h2, h3, h4 {
 .about-highlight {
   background: #ffffff;
   padding: 24px;
-  border-left: 4px solid 004080;
+  border-left: 4px solid #004080;
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.06);
   font-size: 15px;
@@ -291,7 +291,7 @@ footer .footer-bottom {
 .program-box {
   background: #ffffff;
   padding: 24px;
-  border-left: 4px solid 004080;
+  border-left: 4px solid #004080;
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.06);
   height: 100%;
