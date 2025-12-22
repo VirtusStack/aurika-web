@@ -62,9 +62,9 @@ include __DIR__ . '/templates/include/header.php';
       <div class="col-md-6 text-center">
       <div class="text-center">
       <img 
-       src="assets/images/campus/campus-progress.jpg" 
-       class="img-fluid rounded shadow-sm home-campus-img" 
-       alt="Aurika Knowledge Foundation Campus Development">
+  src="assets/images/campus/campus-masterplan.jpg"
+  class="img-fluid home-campus-img"
+  alt="Aurika Knowledge Foundation Campus Master Plan">
       </div>
 
       </div>
