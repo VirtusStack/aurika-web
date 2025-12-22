@@ -18,25 +18,31 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+  <div class="container">
 
-        <!-- Brand -->
-        <a class="navbar-brand fw-bold " href="index.php">Aurika Knowledge Foundation</a>
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center gap-3" href="index.php">
+    <img src="<?= BASE_URL ?>/assets/images/logo/aurika-logo.png" 
+       alt="Aurika Knowledge Foundation Logo"
+       class="brand-logo">
 
-        <!-- Mobile Toggle Button -->
-        <button
-            class="navbar-toggler"
-            type="button"
+    <div class="brand-text">
+    <span class="brand-title">Aurika Knowledge Foundation</span>
+    </div>
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button"
             data-bs-toggle="offcanvas"
-            data-bs-target="#mobileMenu"
-            aria-controls="mobileMenu"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            data-bs-target="#mobileMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-       <!-- Desktop Menu -->
-        <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end">
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end">
+      <ul class="navbar-nav align-items-center gap-2">
+
             <ul class="navbar-nav align-items-center gap-2">
                 <li class="nav-item">
                     <a class="nav-link <?= ($currentPage === 'index.php') ? 'active' : '' ?>" href="index.php">Home</a>
