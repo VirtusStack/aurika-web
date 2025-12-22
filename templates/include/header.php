@@ -1,8 +1,6 @@
 <?php 
 // $currentPage should be defined before including this file
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +14,6 @@
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
-
 
 </head>
 <body>
